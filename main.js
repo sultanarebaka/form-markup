@@ -53,6 +53,21 @@ if(password.length < 8) {
         "\n" +
         "DO SOMETHING WITH THE INFORMATION" 
     );
-    });
+(document).ready(function() {
+    //CODE HERE
+
+}
+);
+
+('#signup_form').submit(function(e){
+    e.preventDefault();
+    // validation
+
 });
+
+
+var fieldName = ('fieldCSSSelector').val();
+var name = ("#name").val();
+var email = ("#email").val();
+var password = ("#password").val();
 
