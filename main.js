@@ -27,6 +27,32 @@ if (email.length < 1) {
     return;
 
 }
-else{
-    
+
+// check the length of the password value, if empty return an error.
+
+if(password.length < 8) {
+    ("#password").after('<span class="error">Password must be 8 characters long</span>');
+    return;
 }
+
+    var regEx = /^([a-zA-Z0-9_\.\-\+])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+/;
+
+    var validEmail = regEx.test(email);
+
+    if (!validEmail){
+        ("#email").after('<span class="error">Enter a valid email></span>');
+        return;
+    }
+
+    (".error").remove();
+
+    // we create an alert message
+    alert(
+        "Name : " +
+        name +
+        "\n" +
+        "DO SOMETHING WITH THE INFORMATION" 
+    );
+    });
+});
+
