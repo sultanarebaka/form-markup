@@ -134,5 +134,31 @@ input {
   }
 
 
+  .error {
+    height: 20px;
+    color: red;
+    line-height: 20px;
+    text-align: left;
+    display: block;
+    width: 100%;
+  }
+
+
+  .fab,.fa {
+    color: white;
+    padding-left: 1rem;
+  }
+
+  .btn-contact{
+    color: black;
+    font-size: 2em;
+    display: flexbox;
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform 0.2s ease-out;
+    
+  }
+  
+
 
 
