@@ -123,6 +123,15 @@ input {
     font-size: 1em;
     
   }
+  .overlay-panel {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 60%;
+    padding: 0 40px;
+  
+  }
 
 
 
