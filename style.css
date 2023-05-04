@@ -159,6 +159,21 @@ input {
     
   }
 
+  @media (max-width:950px){
+    .btn-contact{
+      font-size:1.6em;
+    }
+  }
+  @media (max-width:640px){
+    .btn-contact{
+      font-size:1.4em;
+    }
+  }
+  .btn-contact:hover {
+    transform: translateY(7px);
+  }
+  
+
   
   
 
