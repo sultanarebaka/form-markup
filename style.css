@@ -48,7 +48,7 @@ button{
 
 }
 @media (max-width:650px){
-  #signUp{
+  #SignUp{
     
     width:10px;
     
@@ -64,14 +64,14 @@ button:focus{
     outline: none;
 }
 
-#signIn{
+#SignIn{
     background-color: transparent;
     border-color: black;
     margin-top: inherit;
     
 }
 @media (max-width:650px){
-  #signIn{
+  #SignIn{
     
     margin-right: 750px;
     

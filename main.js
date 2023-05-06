@@ -1,6 +1,6 @@
 (document).ready(function () {
   
-    ("#signup_form").submit(function (e) {
+    ("#SignUp_form").submit(function (e) {
       e.preventDefault();    
   
       var name = ("#name").val();
@@ -54,7 +54,7 @@
   });
 
 
-('#signup_form').submit(function(e) {
+('#SignUp_form').submit(function(e) {
     e.preventDefault();
  });
 
