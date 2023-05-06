@@ -23,7 +23,7 @@
         ("#email").after('<span class="error">Email is required</span>');
         return;
       } else {
-        var regEx = /^([a-zA-Z0-9_\.\-\+])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+/;
+        var regEx = /^([a-zA-Z0-9_\.\-\+])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
         var validEmail = regEx.test(email);
         if (!validEmail) {
           ("#email").after('<span class="error">Enter a valid email</span>');
@@ -82,7 +82,7 @@ if (password.length < 8) {
     return;
   }
 
-  var regEx = /^([a-zA-Z0-9_\.\-\+])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+/;
+  var regEx = /^([a-zA-Z0-9_\.\-\+])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
   
   var validEmail = regEx.test(email);
   // Also run a regex against the email to verify the value is an email.
